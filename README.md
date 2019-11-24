@@ -2,10 +2,11 @@
 Online Shopping Mall - Web Development &amp; Deployment 2019
 
 ```
-Develop a web application that interacts with a MySQL database via PHP and that includes an authentication mechanism. The application has to implement the 4 CRUD operations (Create/Read/Update/Delete
+Develop a web application that interacts with a MySQL database via PHP and that includes an authentication mechanism. 
+The application has to implement the 4 CRUD operations (Create/Read/Update/Delete
 ```
-###Features
-####Customer
+### Features
+#### Customer
 - Join
 - Login & Logout
 - Modify Profile
@@ -13,26 +14,26 @@ Develop a web application that interacts with a MySQL database via PHP and that 
 - Delete from Cart
 - Advanced Search & Filter
 
-####Administrator
+#### Administrator
 - Add Product
 - Delete Product
 - Modify Product
 - Modify Profile
 
-###Demo Video
-####User Mode
-[![Video Label]](https://www.youtube.com/watch?v=EZRetdAnPOI)
+### Demo Video
+#### User Mode
+[![Video Label]((http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/NEpenSujHwM)
 
-####Admin Mode
-[![Video Label]](https://youtu.be/Ve2YzCEvFC8)
+#### Admin Mode
+[![Video Label]((http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/EZRetdAnPOI)
 
-###Built with
+### Built with
 - PHP
 - Javascript / JQuery
 - MySQL
 - Bootstrap 4
 
-###Installation
+### Installation
 ```
 1. Download this repo
 2. Place it under your server
@@ -40,12 +41,12 @@ Develop a web application that interacts with a MySQL database via PHP and that 
 4. import db.sql and db_insert.sql
 ```
 
-###Run
+### Run
 ```
 'http://localhost/mall/index.php'
 ```
 
-###TODO
+### TODO
 - Favourites
 - Review
 - QnA
