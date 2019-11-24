@@ -1,0 +1,107 @@
+body {
+  font-family: 'Open sans','Volkhov', serif;
+  overflow-x: hidden; }
+
+
+footer {
+  padding-bottom: 1rem;
+  padding-top:1rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+main{
+  margin-top:5%;
+}
+
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.login body {background-color:#eee;}
+
+
+#title{font-family: 'Bad Script', cursive;}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+/*https://bootsnipp.com/snippets/2eKOz/*/
+
+.count {
+    color: #000;
+    display: inline-block;
+    width:50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px;
+    text-align: center;
+    background: transparent;
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-bottom: transparent !important;
+}
+
+/*Prevent text selection*/
+span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.errorTxt {
+    color:red;
+}
+
+.form-control {
+  border: 2px solid black;
+}
