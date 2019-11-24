@@ -37,6 +37,7 @@ The application has to implement the 4 CRUD operations (Create/Read/Update/Delet
 ```
 1. Download this repo
 2. Place it under your server
+   For example, put it under your 'C:\xampp\htdocs' file
 3. Create new user : username 'd1234' password '1234' in MySQL Database 
    OR change $dbuser and $dbpwd in /mall/Model.php to your MySQL account.
 4. import db.sql and db_insert.sql
