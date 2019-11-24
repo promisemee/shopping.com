@@ -22,10 +22,10 @@ The application has to implement the 4 CRUD operations (Create/Read/Update/Delet
 
 ### Demo Video
 #### User Mode
-[![Video Label]((http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/NEpenSujHwM)
+[DEMO HERE](https://youtu.be/NEpenSujHwM)
 
 #### Admin Mode
-[![Video Label]((http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/EZRetdAnPOI)
+[DEMO HERE](https://youtu.be/EZRetdAnPOI)
 
 ### Built with
 - PHP
@@ -37,7 +37,8 @@ The application has to implement the 4 CRUD operations (Create/Read/Update/Delet
 ```
 1. Download this repo
 2. Place it under your server
-3. Create new user : username 'd1234' password '1234' in MySQL Database OR change $dbuser and $dbpwd in /mall/Model.php to your MySQL account.
+3. Create new user : username 'd1234' password '1234' in MySQL Database 
+   OR change $dbuser and $dbpwd in /mall/Model.php to your MySQL account.
 4. import db.sql and db_insert.sql
 ```
 
