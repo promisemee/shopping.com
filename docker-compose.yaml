@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  web:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: shopping_web
+    links:
+      - db
+    depends_on:
+      - db
+    volumes:
+      - ./src/:/var/www/html/
+    ports:
+      - "8080:80"
+
+  db:
+    container_name: shopping_sql
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: mysql
+      MYSQL_USER: d1234
+      MYSQL_PASSWORD: 1234
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - /var/lib/mysql
+    ports:
+      - "9906:3306"
+
+  phpmyadmin:
+    container_name: shopping_phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    links: 
+      - db:db
+    ports:
+      - 8000:80
+    environment:
+      MYSQL_USER: d1234
+      MYSQL_PASSWORD: 1234
+      MYSQL_ROOT_PASSWORD: root
+volumes:
+    persistent:
+
